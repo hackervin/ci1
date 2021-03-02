@@ -4,7 +4,7 @@ pipeline {
     stage('Docker Build') {
       steps {
         sh "echo ${env.BUILD_NUMBER}"
-        sh "docker build --no-cache -t anguler:$01 ."
+        sh "docker build --no-cache -t anguler:01 ."
       }
     }
         
