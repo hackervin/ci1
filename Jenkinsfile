@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'master' }
+  agent { label 'jnode' }
   stages { 
     stage('Docker Build') {
       steps {
