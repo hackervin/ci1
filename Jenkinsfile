@@ -15,7 +15,12 @@ pipeline {
           sh "docker push hackervin/anguler:01"
         }
       }
-    }        
+    }
+    stage('Launch Container') {
+      steps {
+        sh "docker run -d --restart=always --name anguler -p 80:80 hackervin/anguler:01"
+      }
+    }    
   }
   post {
     always {
