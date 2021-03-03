@@ -16,6 +16,7 @@ pipeline {
         }
       }
     }
+    
     stage('Launch Container') {
       steps {
         sh "docker run -d --restart=always --name anguler -p 80:80 hackervin/anguler:01"
