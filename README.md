@@ -9,7 +9,6 @@ Here's what is in the project:
 * Angular scripts and TypeScript configuration are ready to go
 * A simple app component 
 * Bootstrap for CSS
-* 
 
 This is a very simple "Hello World" project to help get you started.
 
